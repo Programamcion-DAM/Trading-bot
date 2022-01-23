@@ -2,7 +2,7 @@ class TAHIEL1(QCAlgorithm):
 
     def Initialize(self):
         self.SetStartDate(2021, 1, 1)#La fecha inicial del backtest el 1 de enero de 202o
-        self.SetEndDate(2021,12,31)#El backtest dura 2 años.
+        self.SetEndDate(2021,12,31)#El backtest dura 1 años.
         self.SetCash(100000)  #Cash inicial de la cuenta en 100000 dolares
         self.crypto = self.AddCrypto("BTCUSD", Resolution.Minute).Symbol #Añadimos la crypto
         
